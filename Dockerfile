@@ -13,7 +13,7 @@ FROM catub/core:bullseye
 WORKDIR /userbot
 
 # Timezone
-ENV TZ=Asia/Kolkata
+ENV TZ=Asia/Jakarta
 
 ## Copy files into the Docker image
 COPY . .
